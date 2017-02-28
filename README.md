@@ -6,8 +6,8 @@ This is a personal project to learn more about developing web applications with 
 
 `node server`
 
-## Future enhancements
+## Future Enhancements
 
-1. Add MochaDB to store contacts in a database
+1. Add MongoDB to store contacts in a database
 2. Add functionality to put in new contacts (rather than dummy information)
 3. Add functional and structural tests
