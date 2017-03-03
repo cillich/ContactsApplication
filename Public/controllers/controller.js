@@ -1,13 +1,29 @@
 angular.module('myApp', []).controller('AppCtrl', function($scope, $http) {
-    console.log("Hello world from controller");
 
-    $http({
-        method: 'GET',
-        url: '/contactlist'
-    }).then(function(response){
-        console.log("I got the data I requested");
-        $scope.contactlist = response.data;
-    });
+    $scope.contact = {};
+
+    var refresh = function(){
+        $http({
+            method: 'GET',
+            url: '/contactlist'
+        }).then(function(response){
+            $scope.contactlist = response.data;
+            $scope.contact.name = "";
+            $scope.contact.email = "";
+            $scope.contact.number = "";
+        });
+    };
+
+    refresh();
+
+    $scope.addContact = function() {
+        console.log($scope.contact);
+        $http.post('/contactlist', $scope.contact).then(function(response){
+            console.log(response);
+            refresh();
+        });
+
+    };
 
 
 });
