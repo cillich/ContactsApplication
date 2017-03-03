@@ -12,6 +12,6 @@ This is a personal project to learn more about developing web applications with 
 
 ## Future Enhancements
 
-1. Add functionality to put in new contacts (rather than dummy information in the database)
+1. Add functionality to remove contacts through the UI
 2. Add functional and structural tests
 3. Figure out how to let other people download ContactsApp without having to install MongoDB
