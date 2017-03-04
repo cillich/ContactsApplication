@@ -11,6 +11,7 @@ Install Node.js into your directory:
 Because I am not hosting a database for this application, you have to install MongoDB yourself. Use these links to help set it up:
 
 For Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
 For Windows: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 
 You will have to create a database called "contactlist".
