@@ -4,7 +4,16 @@ This is a personal project to learn more about developing web applications with 
 
 ## Set up
 
+Install Node.js into your directory:
+
 `npm install`
+
+Because I am not hosting a database for this application, you have to install MongoDB yourself. Use these links to help set it up:
+
+For Mac: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+For Windows: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+
+You will have to create a database called "contactlist".
 
 ## To Run the Server
 
@@ -12,6 +21,4 @@ This is a personal project to learn more about developing web applications with 
 
 ## Future Enhancements
 
-1. Add functionality to put in new contacts (rather than dummy information in the database)
-2. Add functional and structural tests
-3. Figure out how to let other people download ContactsApp without having to install MongoDB
+Add functional and structural tests
